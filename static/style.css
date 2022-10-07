@@ -12,8 +12,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    background: rgb(25, 38, 102);
-    background: linear-gradient(180deg, rgba(25, 38, 102, 1) 0%, rgba(45, 38, 113, 1) 51%, rgba(114, 40, 152, 1) 100%);
+    background: black;
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -22,10 +21,10 @@ body {
 }
 
 #header .profile img {
-    margin: 15px auto;
+    margin: 20px auto;
     display: block;
     width: 120px;
-    border: 8px solid #41207e;
+    border: 8px solid #02008a;
     border-radius: 50%;
 }
 
@@ -40,13 +39,12 @@ body {
 
 
 #header .profile .social-links a {
-    font-size: 1rem;
     background: #212431;
     color: #fff;
     padding: 0.6rem;
     margin-right: 1rem;
-    border-radius: 25%;
-    transition: 0.3s;
+    border-radius: 26%;
+    transition: 0.4s;
     text-decoration: none;
 }
 
@@ -145,6 +143,24 @@ i.menu-mobile {
     justify-content: center;
     align-items: center;
 }
+.contato{
+    border-radius: 40px;
+    background-color: #d3d3d3;
+}
+.container{
+    border-radius: 40px;
+    background-color: #d3d3d3;
+}
+.copyright{
+    background-color: #000000;
+}
+.blk{
+    height: 650px;
+    border-radius: 40px;s  
+}
+main{
+    background-color: black;
+}
 
 .menu-nav-active {
     overflow: hidden;
@@ -209,7 +225,9 @@ i.menu-mobile {
     }
 
     #main {
+        border-radius: 30px;
         margin-left: 0;
+        background-color: #2d2f3a;
     }
 }
 
@@ -243,6 +261,7 @@ i.menu-mobile {
 }
 
 .section-bg {
+    border-radius: 30px;
     background-color: #eff5ff;
 }
 
@@ -302,8 +321,8 @@ i.menu-mobile {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background: rgba(114, 40, 152);
-background: linear-gradient(180deg, rgba(114, 40, 152, 1) 0%, rgba(152,40,141,1) 80%);
+    background: black;
+    
     transition: .3s;
 }
 
