@@ -67,6 +67,7 @@ body {
 .sobrefoto{
     margin:10px;
     border-radius: 10%;
+    height: 410px;
 }
 .nav-menu a i,
 .nav-menu a:focus i {
@@ -94,6 +95,12 @@ body {
     margin-left: 300px;
 }
 
+#portifolio{
+    background:   black;
+}
+#habilidades{
+    background:   black;
+}
 section#inicio {
     background-image: url("./img/fundo2.jpeg");
     background-repeat: no-repeat;
@@ -159,7 +166,7 @@ i.menu-mobile {
 }
 .blk{
     height: 770px;
-    border-radius: 40px;s  
+    border-radius: 40px;
 }
 main{
     background-color: black;
@@ -230,7 +237,11 @@ main{
     #main {
         border-radius: 30px;
         margin-left: 0;
-        background-color: #2d2f3a;
+        background:   black;;
+    }
+
+    #body{
+        background:   black;
     }
 }
 
