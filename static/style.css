@@ -165,9 +165,15 @@ i.menu-mobile {
     background-color: #000000;
 }
 .blk{
-    height: 770px;
+    height: 300px;
     border-radius: 40px;
 }
+
+.numero_zap {
+    text-decoration: none;
+    color : black;
+}
+
 main{
     background-color: black;
 }
